@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    padding: 10px;
+    background-color: rgb(206, 163, 108);
+}
+.logo{
+    border-radius: 50%;
+    height: 150px;
+}
+header{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-top: 10px;
+}
+.header{
+    padding: 0;
+    font-size: 2rem;
+    margin: 0;
+}
+.contained{
+    margin: 30px;
+    background-color: blanchedalmond;
+}
+.nav-button{
+    list-style-type: none;
+    float: left;
+}
+.navbar{
+    background-color: rgb(119, 64, 19);
+    overflow: hidden;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+}
+.navlink{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0px 30px;
+    
+}
+.navlink:hover{
+    color: rgb(228, 154, 57);
+}
+#home{
+    margin: 30px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+#home img{
+    height: 500px;
+    width: 40%;
+    float: left;
+    border-radius: 50%;
+    padding: 10px;
+}
+#home aside{
+    width: 50%;
+    float: left;
+    font-size: 2em;
+    font-family: cursive;
+    margin-top: 300px;
+}
+
+
+#about{
+    margin: 30px;
+    background-color: blanchedalmond;
+}
+#about main{
+    float: left;
+    width: 73%;
+    background-color: blanchedalmond;
+    padding: 10px;
+    height: auto;
+    margin-right: 22px;
+
+}
+#about aside{
+    width: 23%;
+    padding: 10px;
+    float: left;
+    background-color: blanchedalmond
+}
+
+
+
+footer{
+    clear: both;
+    margin: 10px;
+    background-color: rgb(119, 64, 19);
+    text-align: center;
+}
+footer address{
+    color: black;
+}
+footer address a{
+    text-decoration: none;
+    color: white;
+    
+}
+footer p{
+    color: antiquewhite;
+}
